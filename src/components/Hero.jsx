@@ -50,7 +50,7 @@ export default function Hero() {
     },
     {
       title: "",
-      image: "/image_10.png",
+      image: "/image_10.jpg", // Update this with your actual image name
       subtitle: [
         "KOACON 2025",
         "49th State Conference of Karnataka Orthopaedic Association",
@@ -64,7 +64,7 @@ export default function Hero() {
     },
     {
       title: "",
-      image: "/image_11.png",
+      image: "/image_11.jpg", // Update this with your actual image name
       subtitle: [
         "PRESIDENTIAL THEME (2024-25)",
         "Collaborate – Share – Support"
@@ -75,6 +75,8 @@ export default function Hero() {
     }
   ];
 
+  // Rest of the component code remains the same...
+  
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
   };
